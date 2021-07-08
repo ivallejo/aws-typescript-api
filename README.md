@@ -1,6 +1,8 @@
-# TATA CONSULTANCY SERVICE   🚀
+# TATA CONSULTANCY SERVICE
 
-## Serverless -> AWS Node.js Typescript DynamoDB
+## Nombres: Luis Fernando Vallejo Aguilar 
+## Project: Serverless  🚀
+## Tecnologias: AWS Node.js Typescript DynamoDB 
 
 > **Reto Técnico** 
 
@@ -31,7 +33,7 @@ Puntos Bonus
 - Run `npm i` to install the project dependencies
 - Run `npx sls deploy` to deploy this stack to AWS
 
-## Test your service
+## Test service
 
 This project contains a lambda function triggered by an HTTP request made on the provisioned API Gateway REST API `/movies` route with `POST` method. The request body must be provided as `application/json`. The body structure is tested by API Gateway against `src/functions/movies/schema.ts` JSON-Schema definition: it must contain the `name` property.
 
@@ -58,7 +60,7 @@ curl --location --request POST 'https://myApiEndpoint/dev/movies' \
 }'
 ```
 
-## Template features
+##  Features
 
 ### Project structure
 
@@ -115,3 +117,7 @@ The project code base is mainly located within the `src` folder. This folder is 
 ### Advanced usage
 
 Any tsconfig.json can be used, but if you do, set the environment variable `TS_NODE_CONFIG` for building the application, eg `TS_NODE_CONFIG=./tsconfig.app.json npx serverless webpack`
+
+---
+
+# Gracias!
