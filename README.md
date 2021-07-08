@@ -4,11 +4,21 @@
 
 > **Reto Técnico** 
 
-- Crear una API en Node.js con el framework Serverless para un despliegue en AWS.
-- Adaptar y transformar los modelos de la API de prueba. Se tienen que mapear todos los nombres de atributos modelos del inglés al español (Ej: name -> nombre).
-- Integrar la API de prueba StarWars API (líneas abajo está el link) se deben integrar uno o más endpoints.
-- Crear un modelo de su elección mediante el uso de un endpoint POST, la data se tendrá que almacenar dentro de una base de datos.
-- Crear un endpoint GET que muestre la data almacenada.
+Puntos de evaluación:
+
+* [x] Mínimo 2 endpoints, GET para recuperar la información y POST para crear un elemento.
+* [x] Integración con una base de datos (DynamoDB o MySQL)
+* [x] Integración con SWAPI
+* [x] Uso de Serverless Framework
+* [x] Uso de Node.js
+* [x] Respeto de las buenas prácticas de desarrollo
+* [x] Traducción de campos de ingles a español
+
+Puntos Bonus
+
+* [ ] Documentación de uso (2 puntos)
+* [x] Pruebas unitarias (10 puntos)
+
 
 ## Installation/deployment instructions
 
