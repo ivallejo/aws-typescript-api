@@ -1,0 +1,6 @@
+{
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": "{\"name\": \"Wonder Woman\",\"year\": \"2017\",\"director\": \"Patty Jenkins\",\"gender\": \"Fantasía\",\"principal_actor\": \"Gal Gadot\"}"
+}
