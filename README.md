@@ -16,9 +16,11 @@ Puntos de evaluación:
 
 Puntos Bonus
 
-* [ ] Documentación de uso (2 puntos)
+* [x] Documentación de uso (2 puntos)
 * [x] Pruebas unitarias (10 puntos)
-
+* [ ] Documentación en Open API/Swagger (2 puntos)
+* [x] Desplegar sin errores en AWS con el comando deploy del framework serverless (2 puntos)
+* [x] Mayor complejidad de Integración (3 puntos)
 
 ## Installation/deployment instructions
 
