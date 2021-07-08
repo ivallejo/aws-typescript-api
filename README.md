@@ -31,7 +31,7 @@ Puntos Bonus
 ### Using NPM
 
 - Run `npm i` to install the project dependencies
-- Run `npx sls deploy` to deploy this stack to AWS
+- Run `npm run deploy` to deploy this stack to AWS
 
 ## Test service
 
@@ -45,8 +45,8 @@ This project contains a lambda function triggered by an HTTP request made on the
 
 In order to test the movies function locally, run the following command:
 
-- `npx sls invoke local -f movieCreate --path src/functions/movies/mock.json` if you're using NPM
-- `npx sls invoke local -f movieFind` if you're using NPM
+- `npm run movie:post` if you're using NPM
+- `npm run movie:get` if you're using NPM
 
 ### Remotely
 

@@ -6,8 +6,8 @@
   "scripts": {
     "deploy": "serverless deploy",
     "test": "jest --config=jest.config.test.js",
-    "movie-mock:post":"sls invoke local -f movieCreate --path src/functions/movies/mock.json",
-    "movie-mock:get":"sls invoke local -f movieFind",
+    "movie:post":"sls invoke local -f movieCreate --path src/functions/movies/mock.json",
+    "movie:get":"sls invoke local -f movieFind",
     "compile": "tsc"
   },
   "engines": {
